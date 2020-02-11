@@ -1,7 +1,7 @@
 FROM maven:3.6.1-jdk-8-slim AS build
 
 RUN mkdir /app
-COPY . /app
+COPY ./ /app
 WORKDIR /app
 RUN mvn install -DskipTests=true
 
