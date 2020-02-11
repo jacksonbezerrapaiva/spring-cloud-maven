@@ -1,4 +1,4 @@
-# Spring Cloud Hystrix - Turbine
+# Spring Cloud Hystrix - Turbine with Consul ServiceDiscovery
 
 Example app Spring Cloud.
 
